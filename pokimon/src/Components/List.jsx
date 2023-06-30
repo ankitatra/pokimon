@@ -124,6 +124,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "../Components/style.css";
+import { json, useNavigate } from "react-router-dom";
 
 const List = () => {
   const [pokeData, setPokeData] = useState([]);
@@ -184,6 +185,13 @@ const List = () => {
     window.addEventListener("scroll", handleInfineScroll);
     return () => window.removeEventListener("scroll", handleInfineScroll);
   });
+  const navigate=useNavigate()
+  const navigatePokemonInfo=(item)=>{
+   
+    console.log(item)
+    localStorage.setItem("pokeinfo",JSON.stringify(item))
+     navigate("/pokeinfo")
+  }
 
   return (
     <div
@@ -193,6 +201,7 @@ const List = () => {
         <div
           key={i}
           className="pokemon-card"
+          onClick={()=>navigatePokemonInfo(item)}
         >
           <img
             className="pokemon-image"

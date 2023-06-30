@@ -12,7 +12,9 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { FaSearch, FaShoppingCart, FaBookmark } from "react-icons/fa";
+
 const Navbar = () => {
+
   return (
     <>
       <Box
@@ -25,7 +27,7 @@ const Navbar = () => {
       >
         <Flex p={2}>
           <Box>
-            <Button backgroundColor={"#FCEEC8"}>Logo</Button>
+            <Button backgroundColor={"#FCEEC8"} >Logo</Button>
           </Box>
           <Spacer />
           <Box>
@@ -54,7 +56,7 @@ const Navbar = () => {
           </Box>
 
           <Box>
-            <Button backgroundColor={"#FCEEC8"} mr={4}>
+            <Button backgroundColor={"#FCEEC8"} mr={4} >
               Bookmark
               <FaBookmark  />
             </Button>

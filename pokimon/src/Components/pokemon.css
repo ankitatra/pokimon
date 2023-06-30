@@ -1,0 +1,136 @@
+/* https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/pokemon/sobble-th.jpg */
+/*   */
+
+/* body{
+    background-image: url("https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/tcg/sun-moon-cosmic-eclipse-01-th.jpg");
+} */
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fac695+24,f5ab66+59 */
+
+.abilities {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(89, 157, 215);
+  /* background: linear-gradient(
+    90deg,
+    rgba(89, 157, 215, 1) 7%,
+    rgba(241, 157, 46, 1) 77%
+  ); */
+  width: 60%;
+  margin-left: 80px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+}
+.button {
+  margin-top: 15px;
+  padding: 6px;
+  width: 120px;
+  /* background-color: #f5ab66; */
+  /* color: black; */
+  font-size: 13px;
+  border-radius: 20px;
+  background: #fac695; 
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #fac695 24%,
+    #f5ab66 59%
+  );
+   /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #fac695 24%,
+    #f5ab66 59%
+  ); 
+  background: linear-gradient(
+    45deg,
+    #fac695 24%,
+    #f5ab66 59%
+  ); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac695', endColorstr='#f5ab66',GradientType=1 ); 
+ 
+}
+
+/* div{
+    color:blue
+} */
+/* .last :last-child {
+  padding-top: 15px;
+} */
+.table {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.base-stat div:nth-child(1) {
+  /* background: rgb(241, 157, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 157, 46, 1) 7%,
+    rgba(89, 157, 215, 0.9864320728291317) 77%
+  ); */
+  width: 60%;
+  margin-left: 80px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+
+.base-stat div:nth-child(2) {
+  /* background-color: #fac695;; */
+  /* background: rgb(89, 157, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 157, 215, 1) 7%,
+    rgba(241, 157, 46, 1) 77%
+  ); */
+  width: 60%;
+  margin-left: 80px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+}
+.base-stat div:nth-child(3) {
+  /* background: rgb(241, 157, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 157, 46, 1) 7%,
+    rgba(89, 157, 215, 0.9864320728291317) 77%
+  ); */
+  width: 60%;
+  margin-left: 80px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+}
+.base-stat div:nth-child(4) {
+  /* background: rgb(89, 157, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 157, 215, 1) 7%,
+    rgba(241, 157, 46, 1) 77%
+  ); */
+  width: 60%;
+  margin-left: 80px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+}
+.base-stat div:nth-child(5) {
+  /* background: rgb(241,157,46);
+    background: linear-gradient(90deg, rgba(241,157,46,1) 7%, rgba(89,157,215,0.9864320728291317) 77%); */
+  width: 60%;
+  margin-left: 80px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+}
+
+.base-stat div:nth-child(6) {
+  /* background: rgb(89,157,215);
+    background: linear-gradient(90deg, rgba(89,157,215,1) 7%, rgba(241,157,46,1) 77%); */
+  width: 60%;
+  margin-left: 80px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+}
+
+.base-stat div {
+  background-color: #fac695;
+}
