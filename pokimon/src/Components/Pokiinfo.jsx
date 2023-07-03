@@ -3,6 +3,7 @@ import "../Components/pokemon.css";
 import { useNavigate } from "react-router-dom";
 import {  FaBookmark } from "react-icons/fa";
 import {BsBookmark} from "react-icons/bs"
+import Bookmark from "./Bookmark";
 const Pokeinfo = () => {
   const data = JSON.parse(localStorage.getItem("pokeinfo"));
   // console.log(data.stats);
@@ -16,9 +17,11 @@ const Pokeinfo = () => {
     console.log("book", tick);
    if(tick){
     let book = bookmarkarray.push(data);
+    alert("pokemon add to Bookmark")
    }else{
-    const indexToRemove = bookmarkarray.length-1; // Index of the item to remove
+    const indexToRemove = bookmarkarray.length-1; 
     bookmarkarray.splice(indexToRemove, 1);
+    alert("pokemon remove to Bookmark")
    }
     localStorage.setItem("bookmark", JSON.stringify(bookmarkarray));
     setTick(()=>!tick)

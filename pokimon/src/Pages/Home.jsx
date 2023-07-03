@@ -1,4 +1,5 @@
 import React from "react";
+import poki from "../Components/pokim.png"
 import "../Components/home.css"
 import { useNavigate } from "react-router-dom";
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
             </div>
         </div>
         <div className="section">
-            <img  className="pokemon"src="https://o.remove.bg/downloads/16a4f44f-bf33-4b4e-bae0-5a970dfeb144/cute-cool-boy-dabbing-pose-cartoon-vector-icon-illustration-people-fashion-icon-concept-isolated_138676-5680-removebg-preview.png" alt="pokemon"/>
+            <img  className="pokemon"src={poki} alt="pokemon"/>
         </div>
       </div>
     </>
