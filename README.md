@@ -6,7 +6,7 @@ Holistic Remedies is one of top leading and trusted company, which provides Heal
 
 
 ## Home Page:
-![home-page](![Uploading image.png…]()
+![home-page](![Uploading image.png…])
 )
 
 <br/>
