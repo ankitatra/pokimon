@@ -11,8 +11,9 @@ Holistic Remedies is one of top leading and trusted company, which provides Heal
 
 <br/>
 
-## Login Page:
-![screenshot__12859_](https://user-images.githubusercontent.com/105616033/201505479-f07d85e4-3ce1-4a5a-93d3-e9dbc2a4577b.png)
+## List Page:
+![List page](https://github.com/ankitatra/pokimon/assets/61157473/d00ab218-80d5-4ba6-b4a3-841edb874acb)
+
 
 <h3>Users can login using Login Authentication with thier registered Email address</h3>
 
