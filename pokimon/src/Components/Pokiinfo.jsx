@@ -118,7 +118,7 @@ const Pokeinfo = () => {
             className="last"
             style={{ display: "flex", justifyContent: "space-around" }}
           >
-            <div onClick={() => navigate("/")} className="button">
+            <div onClick={() => navigate("/list")} className="button">
               See more pokemon
             </div>
             <div onClick={nanigatehome} className="button">

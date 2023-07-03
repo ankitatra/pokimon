@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Box,
   Flex,
@@ -12,13 +12,31 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { FaSearch, FaShoppingCart, FaBookmark } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
 
+  const handleSearchTermChange = (event) => {
+    const searchTerm = event.target.value;
+    setSearchTerm(searchTerm);
+    localStorage.setItem("name",searchTerm)
+    setTimeout(()=>{
+      window.location.reload(true);
+    },5000)
+   
+  };
+
+  const handleFilterChange = (event) => {
+    const selectedFilter = event.target.value;
+    localStorage.setItem("filter",selectedFilter)
+    window.location.reload(true);
+  };
   return (
     <>
       <Box
-      color={"black"}
+        color={"black"}
         width={"100%"}
         bg={"#FCEEC8"}
         position={"fixed"}
@@ -27,7 +45,7 @@ const Navbar = () => {
       >
         <Flex p={2}>
           <Box>
-            <Button backgroundColor={"#FCEEC8"} >Logo</Button>
+            <Button backgroundColor={"#FCEEC8"}>Logo</Button>
           </Box>
           <Spacer />
           <Box>
@@ -41,24 +59,35 @@ const Navbar = () => {
                 width={"500px"}
                 border={"none"}
                 background={"white"}
-                type="email"
-                placeholder="Email"
+                value={localStorage.getItem("name")||""}
+                onChange={handleSearchTermChange} placeholder="Search by Pokémon name"
               />
             </InputGroup>
           </Box>
 
           <Box>
-            <Select placeholder="Select option" width={"200px"} mr={44}>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
+            <Select
+              placeholder="Select option"
+              width={"200px"}
+              mr={44}
+             
+              onChange={handleFilterChange}
+            >
+              <option value="">All</option>
+              <option value="fire">Fire</option>
+              <option value="water">Water</option>
+              <option value="electric">Electric</option>
             </Select>
           </Box>
 
           <Box>
-            <Button backgroundColor={"#FCEEC8"} mr={4} >
+            <Button
+              onClick={() => navigate("/bookmark")}
+              backgroundColor={"#FCEEC8"}
+              mr={4}
+            >
               Bookmark
-              <FaBookmark  />
+              <FaBookmark />
             </Button>
           </Box>
         </Flex>

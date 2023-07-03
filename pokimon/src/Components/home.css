@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 625px;
+  background-color: #72cbf1;
+  display: flex;
+}
+.conation :nth-child(1) {
+  width: 40%;
+  /* border: 1px solid red; */
+  height: 100%;
+}
+.conation :nth-child(2) {
+    width: 50%;
+    /* border: 1px solid red; */
+    height: 100%;
+  }
+
+.pokemon {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 95%;
+  /* transform: rotate(45deg) translateX(180px); */
+  margin-top: 15px;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+.logo {
+  width: 180px;
+  margin-left: 25px;
+  margin-top: 6px;
+}
+.midlesection {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.midlesection h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.midlesection h3 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.midlesection button {
+  width: 120px;
+  height:40px;
+  font-size: 14px;
+  color: white;
+  border: 1px solid green;
+  background-color: green;
+ 
+}
+.midlesection button:hover{
+    font-size: 16px;
+    color:black
+}
