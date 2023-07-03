@@ -1,8 +1,9 @@
 
-# Welcome to Holistic Remedies
-Holistic Remedies is one of top leading and trusted company, which provides Healthcare, diagonistic and personal care products. Started with the sole purpose of making healthcare accessible and affordable to all everyone
+# Welcome to Pokemon
+##[Pokemon api](https://pokeapi.co/)
 
-## [Deployed URL](https://holistic-remedies.netlify.app//)
+
+## [Deployed URL](https://64a3074957067b3cd493f087--shiny-quokka-18ae61.netlify.app/)
 
 
 ## Home Page:
@@ -17,21 +18,16 @@ Holistic Remedies is one of top leading and trusted company, which provides Heal
 
 <h3>Users can login using Login Authentication with thier registered Email address</h3>
 
-## Health-Care Page:
-![health-care](https://user-images.githubusercontent.com/105616033/201505209-e7dbb557-2ce2-4a14-8e02-b854e3ca9c48.png)
-<h3>User can also redirects to product page from healthcare page</h3>
+##Pokemon Info Page:
+![Pokemon info](https://github.com/ankitatra/pokimon/assets/61157473/ec0c2193-c947-44e8-bb6a-bbead574d1d5)
+
 <br/>
 
-## Lab-Test Page:
-![lab-tests](https://user-images.githubusercontent.com/105616033/201505496-88c9e837-1787-45ea-8e51-844b86ba4d92.png)
+## BookmarkPage:
+![image](https://github.com/ankitatra/pokimon/assets/61157473/7ff7372e-7630-4cd8-b3d2-6559385e02fc)
 
-## Product Page:
-![product-page](https://user-images.githubusercontent.com/105616033/201505218-58d13bff-cfc6-4b71-8804-5aaf1fc09aa1.png)
-<h3>Users Can add products to cart section,its flexible in adjusting the quantity as per the user rerquirement</h3>
-<br/>
 
-## Single-Cart Page:
-![single-card-page](https://user-images.githubusercontent.com/105616033/201505232-b0309d22-6666-4921-adb1-5ddcf0d56446.png)
+
 
 <br/>
 <h4 align="center">💻 Tech Stack</h4>
