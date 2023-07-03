@@ -16,7 +16,7 @@
 ![List page](https://github.com/ankitatra/pokimon/assets/61157473/d00ab218-80d5-4ba6-b4a3-841edb874acb)
 
 
-<h3>Users can login using Login Authentication with thier registered Email address</h3>
+
 
 ##Pokemon Info Page:
 ![Pokemon info](https://github.com/ankitatra/pokimon/assets/61157473/ec0c2193-c947-44e8-bb6a-bbead574d1d5)
@@ -76,5 +76,5 @@
 ## Developers
 
 - **[Ankita Thakur](https://github.com/ankitatra)**
--
+
     
