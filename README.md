@@ -3,7 +3,7 @@
 ##[Pokemon api](https://pokeapi.co/)
 
 
-## [Deployed URL](https://64a3074957067b3cd493f087--shiny-quokka-18ae61.netlify.app/)
+## [Deployed URL](https://64a30c8dbad6fb3ab5412979--shiny-quokka-18ae61.netlify.app/)
 
 
 ## Home Page:
