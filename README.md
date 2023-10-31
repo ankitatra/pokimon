@@ -3,29 +3,36 @@
 ##[Pokemon api](https://pokeapi.co/)
 
 
-## [Deployed URL](https://64a30c8dbad6fb3ab5412979--shiny-quokka-18ae61.netlify.app/)
+## [Deployed URL](https://6541375d6562233dc3c2ea94--visionary-salmiakki-dce795.netlify.app/)
 
 
 ## Home Page:
-![home page](https://github-production-user-asset-6210df.s3.amazonaws.com/61157473/250628868-59e86f4c-379e-42b4-91e9-b8d2a2995548.png)
+![home page](<img width="1419" alt="Screenshot 2023-10-31 at 23 25 19" src="https://github.com/ankitatra/pokimon/assets/61157473/1d105305-b920-4583-87b3-c4b09a22ea3b">
+)
 
 
 <br/>
 
-## List Page:
-![List page](https://github.com/ankitatra/pokimon/assets/61157473/d00ab218-80d5-4ba6-b4a3-841edb874acb)
+## View Page:
+![List page](<img width="998" alt="Screenshot 2023-10-31 at 23 26 23" src="https://github.com/ankitatra/pokimon/assets/61157473/20400505-056f-4533-80a0-1e39b6c6acf3">
+)
 
 
 
 
-##Pokemon Info Page:
-![Pokemon info](https://github.com/ankitatra/pokimon/assets/61157473/ec0c2193-c947-44e8-bb6a-bbead574d1d5)
+
 
 <br/>
 
-## BookmarkPage:
-![image](https://github.com/ankitatra/pokimon/assets/61157473/7ff7372e-7630-4cd8-b3d2-6559385e02fc)
+## Update Page:
+![image](<img width="1000" alt="Screenshot 2023-10-31 at 23 27 14" src="https://github.com/ankitatra/pokimon/assets/61157473/9e478bc9-ff58-4b24-8fd9-2114364fd7b4">
+)
+<br/>
 
+## Delete Page:
+![image](<img width="1002" alt="Screenshot 2023-10-31 at 23 28 20" src="https://github.com/ankitatra/pokimon/assets/61157473/375e61ec-fa6d-4642-8021-918b6de75af1">
+
+)
 
 
 
