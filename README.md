@@ -63,19 +63,19 @@ The application listens on port 6100.
 <br/>
 
 ## View Page:
-![List page](<img width="998" alt="Screenshot 2023-10-31 at 23 26 23" src="https://github.com/ankitatra/pokimon/assets/61157473/20400505-056f-4533-80a0-1e39b6c6acf3">
+![View page](<img width="998" alt="Screenshot 2023-10-31 at 23 26 23" src="https://github.com/ankitatra/pokimon/assets/61157473/20400505-056f-4533-80a0-1e39b6c6acf3">
 
 
 
 <br/>
 
 ## Update Page:
-![image](<img width="1000" alt="Screenshot 2023-10-31 at 23 27 14" src="https://github.com/ankitatra/pokimon/assets/61157473/9e478bc9-ff58-4b24-8fd9-2114364fd7b4">
+![Update Page](<img width="1000" alt="Screenshot 2023-10-31 at 23 27 14" src="https://github.com/ankitatra/pokimon/assets/61157473/9e478bc9-ff58-4b24-8fd9-2114364fd7b4">
 
 <br/>
 
 ## Delete Page:
-![image](<img width="1002" alt="Screenshot 2023-10-31 at 23 28 20" src="https://github.com/ankitatra/pokimon/assets/61157473/375e61ec-fa6d-4642-8021-918b6de75af1">
+![Delete Page](<img width="1002" alt="Screenshot 2023-10-31 at 23 28 20" src="https://github.com/ankitatra/pokimon/assets/61157473/375e61ec-fa6d-4642-8021-918b6de75af1">
 
 
 
