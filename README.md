@@ -71,7 +71,10 @@
 - *JavaScript*
 - *HTML5*
 - *CSS3*
-- *Chakra UI*
+
+-*Node.js*
+-*Express.js*
+-*Mongodb*
 
 
 
