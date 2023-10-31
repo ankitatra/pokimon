@@ -1,6 +1,5 @@
 
-# Welcome to Pokemon
-##[Pokemon api](https://pokeapi.co/)
+
 
 
 ## [Deployed URL](https://6541375d6562233dc3c2ea94--visionary-salmiakki-dce795.netlify.app/)
